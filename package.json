@@ -1,0 +1,21 @@
+{
+  "name": "Autoreconnect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "electron-rebuild": "electron-rebuild -f -w opencv4nodejs-prebuilt"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.2.4",
+    "electron-rebuild": "^3.2.7"
+  },
+  "dependencies": {
+    "@nut-tree/nut-js": "^2.1.0",
+    "@nut-tree/template-matcher": "^1.0.1",
+    "uiohook-napi": "^1.1.0"
+  }
+}
